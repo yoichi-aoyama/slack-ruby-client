@@ -39,7 +39,7 @@ module Slack
           # @see https://api.slack.com/methods/rtm.start
           # @see https://github.com/slack-ruby/slack-api-ref/blob/master/methods/rtm/rtm.start.json
           def rtm_start(options = {})
-            post('rtm.start', options)
+            post('rtm.connect', options)
           end
         end
       end
